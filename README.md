@@ -1,4 +1,4 @@
-# Horse Racing
+# Profit Optimization Proposal in Horse Racing Betting: Exploratory, Prescriptive and Clustering Analysis
 
 ![Alternate Text](https://usagif.com/wp-content/uploads/gifs/gif-horse-92.gif)
 
@@ -156,16 +156,7 @@ $$
    - \(x\) is a variable.
    - \(ew\_rules_i\) is the ith element of \(ew\_rules\).
    - \(res\_place\_sp_i\) is the ith element of \(res\_place\_sp\).
-
-   Onde:
-
-   - \(f2\) é a função que você deseja definir.
-   - \(n\) é o número de elementos em \(stake\), \(ew\_rules\), e \(res\_place\_sp\).
-   - \(stake_i\) é o i-ésimo elemento de \(stake\).
-   - \(x\) é uma variável.
-   - \(ew\_rules_i\) é o i-ésimo elemento de \(ew\_rules\).
-   - \(res\_place\_sp_i\) é o i-ésimo elemento de \(res\_place\_sp\).
-
+   
 ## NSGA-II
 
 **NSGA-II (Non-dominated Sorting Genetic Algorithm II)** is a multi-objective optimization algorithm based on genetic algorithms. It is designed to solve optimization problems that involve optimizing multiple objectives, i.e., situations where you want to find a set of solutions that are optimal with respect to various goals or criteria, and these criteria may be in conflict with each other.
