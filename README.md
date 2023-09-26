@@ -120,38 +120,51 @@ pip install -r requirements.txt
 In summary, this code seems to define an optimization problem related to horse racing bets, where the goal is to maximize profit on winning bets and minimize losses on placed bets, subject to some constraints related to the age of horses and the probability of winning. This optimization problem can be solved using a specific optimization technique.
 
 
-## Funções Objetivas
+## Objective Functions
 
-Aqui estão as funções matemáticas escritas em Markdown:
+Here are the math functions written in Markdown:
 
-1. Função f1:
+1. Function f1:
 
-   A função f1 é definida da seguinte forma:
-    $$
-        f1 = \sum_{i=1}^{n} (stake_i \cdot (x - 1) \cdot res\_win\_sp_i - stake_i)\
-    $$
+   The f1 function is defined as follows:
+
+$$
+f_1(x) = -1 * \sum_{i=1}^n (bet_i * (x - 1) * \cdot res\_win\_sp_i - bet_i)
+$$
+
+
+   Where:
+   - \(f1\) is the function you want to define.
+   - \(n\) is the number of elements in \(stake\), \(res\_win\_sp\), and \(stake\).
+   - \(stake_i\) is the ith element of \(stake\).
+   - \(x\) is a variable.
+   - \(res\_win\_sp_i\) is the ith element of \(res\_win\_sp\).
+
+2. F2 Function:
+
+   The f2 function is defined as follows:
+   
+$$
+f_2(x) = \sum_{i=1}^n (bet_i * (1 - x * \cdot ew_rules_i) * \cdot res\_win\_sp_i + bet_i)
+$$
+
+   Where:
+
+   - \(f2\) is the function you want to define.
+   - \(n\) is the number of elements in \(stake\), \(ew\_rules\), and \(res\_place\_sp\).
+   - \(stake_i\) is the ith element of \(stake\).
+   - \(x\) is a variable.
+   - \(ew\_rules_i\) is the ith element of \(ew\_rules\).
+   - \(res\_place\_sp_i\) is the ith element of \(res\_place\_sp\).
 
    Onde:
-   - \(f1\) é a função que você deseja definir.
-   - \(n\) é o número de elementos em \(stake\), \(res\_win\_sp\), e \(stake\).
-   - \(stake_i\) é o i-ésimo elemento de \(stake\).
-   - \(x\) é uma variável.
-   - \(res\_win\_sp_i\) é o i-ésimo elemento de \(res\_win\_sp\).
 
-2. Função f2:
-
-   A função f2 é definida da seguinte forma:
-    $$
-        f2 = \sum_{i=1}^{n} (stake_i \cdot (1 - x \cdot ew\_rules_i) \cdot res\_place\_sp_i + stake_i)
-    $$
-   Onde:
    - \(f2\) é a função que você deseja definir.
    - \(n\) é o número de elementos em \(stake\), \(ew\_rules\), e \(res\_place\_sp\).
    - \(stake_i\) é o i-ésimo elemento de \(stake\).
    - \(x\) é uma variável.
    - \(ew\_rules_i\) é o i-ésimo elemento de \(ew\_rules\).
    - \(res\_place\_sp_i\) é o i-ésimo elemento de \(res\_place\_sp\).
-
 
 ## NSGA-II
 
