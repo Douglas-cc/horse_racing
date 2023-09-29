@@ -122,8 +122,6 @@ In summary, this code seems to define an optimization problem related to horse r
 
 ## Objective Functions
 
-Here are the math functions written in Markdown:
-
 1. Function f1:
 
    The f1 function is defined as follows:
