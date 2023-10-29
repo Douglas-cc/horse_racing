@@ -127,7 +127,7 @@ In summary, this code seems to define an optimization problem related to horse r
    The f1 function is defined as follows:
 
 $$
-f_1(x) = -1 \cdot \sum_{i=1}^n (bet_i \cdot (x - 1) \cdot res/_win/_sp_i - bet_i)
+f_1(x) = -1 \cdot \sum_{i=1}^n (bet_i \cdot (x - 1) \cdot win_i - bet_i)
 $$
 
    Where:
@@ -135,14 +135,14 @@ $$
    - \(n\) is the number of elements in \(stake\), \(res\_win\_sp\), and \(stake\).
    - \(stake_i\) is the ith element of \(stake\).
    - \(x\) is a variable.
-   - \(res\_win\_sp_i\) is the ith element of \(res\_win\_sp\).
+   - \(win_i\) is the ith element of \(res\_win\_sp\).
 
 2. F2 Function:
 
    The f2 function is defined as follows:
    
 $$
-f_2(x) = \sum_{i=1}^n (bet_i * (1 - x * \cdot ew_rules_i) * \cdot res-place-sp_i + bet_i)
+f_2(x) = \sum_{i=1}^n (bet_i * (1 - x * \cdot ew_rules_i) \cdot place_i + bet_i)
 $$
 
    Where:
@@ -152,7 +152,7 @@ $$
    - \(stake_i\) is the ith element of \(stake\).
    - \(x\) is a variable.
    - \(ew\_rules_i\) is the ith element of \(ew\_rules\).
-   - \(res\_place\_sp_i\) is the ith element of \(res\_place\_sp\).
+   - \(place_i\) is the ith element of \(res\_place\_sp\).
    
 ## NSGA-II
 
