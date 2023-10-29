@@ -127,7 +127,7 @@ In summary, this code seems to define an optimization problem related to horse r
    The f1 function is defined as follows:
 
 $$
-f_1(x) = -1 * \sum_{i=1}^n (bet_i * (x - 1) * \cdot res_win_sp_i - bet_i)
+f_1(x) = -1 * \sum_{i=1}^n (bet_i * (x - 1) * \cdot res\_win\_sp_i - bet_i)
 $$
 
 
