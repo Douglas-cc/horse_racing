@@ -142,7 +142,7 @@ $$
    The f2 function is defined as follows:
    
 $$
-f_2(x) = \sum_{i=1}^n (bet_i * (1 - x * \cdot ew_rules_i) \cdot place_i + bet_i)
+f_2(x) = \sum_{i=1}^n (bet_i * (1 - x * \cdot rules_i) \cdot place_i + bet_i)
 $$
 
    Where:
@@ -151,7 +151,7 @@ $$
    - \(n\) is the number of elements in \(stake\), \(ew\_rules\), and \(res\_place\_sp\).
    - \(stake_i\) is the ith element of \(stake\).
    - \(x\) is a variable.
-   - \(ew\_rules_i\) is the ith element of \(ew\_rules\).
+   - \(rules_i\) is the ith element of \(ew\_rules\).
    - \(place_i\) is the ith element of \(res\_place\_sp\).
    
 ## NSGA-II
