@@ -143,7 +143,7 @@ $$
    The f2 function is defined as follows:
    
 $$
-f_2(x) = \sum_{i=1}^n (bet_i * (1 - x * \cdot ew_rules_i) * \cdot res\_win\_sp_i + bet_i)
+f_2(x) = \sum_{i=1}^n (bet_i * (1 - x * \cdot ew_rules_i) * \cdot \(res\_place\_sp\) + bet_i)
 $$
 
    Where:
